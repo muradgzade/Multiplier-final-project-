@@ -93,33 +93,36 @@
         }
       }
 
-      .google {
-        cursor: pointer;
-        border-radius: 10px;
-        padding: 10px 30px;
-        border: 1px solid #abb2d9;
-        display: flex;
-        align-items: center;
-        width: 100%;
+      a {
+        text-decoration: none;
+        .google {
+          cursor: pointer;
+          border-radius: 10px;
+          padding: 10px 30px;
+          border: 1px solid #abb2d9;
+          display: flex;
+          align-items: center;
+          width: 100%;
+          gap: 30px;
 
-        img {
-          width: 25px;
-          height: 25px;
-          object-fit: cover;
-        }
+          img {
+            width: 25px;
+            height: 25px;
+            object-fit: cover;
+          }
 
-        span {
-          font-size: 14px;
-          text-align: center;
-          flex-grow: 1;
-          font-family: "Google Sans", arial, sans-serif;
-          font-weight: 500;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          vertical-align: top;
+          span {
+            font-size: 14px;
+            text-align: center;
+            flex-grow: 1;
+            font-family: "Google Sans", arial, sans-serif;
+            font-weight: 500;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            vertical-align: top;
+          }
         }
       }
-
       .or {
         display: flex;
         align-items: center;
